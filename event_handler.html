@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>event handler</title>
+</head>
+<body>
+     <!-- inline event handler -->
+     <!-- <button onclick="alert(testing)">click here</button> -->
+     <!-- <button onclick="test()">Click here</button>
+     <script type="text/javascript">
+     	function test(){
+     		alert("testing");
+     	}
+     </script> -->
+
+
+     <!-- 2nd way event properties -->
+     <button id="btn_id">Click here</button>
+     <!-- <script type="text/javascript">
+     	//2nd way
+     	let btn=document.getElementById('btn_id');
+     	btn.onclick=function(){
+     		alert("hii")
+     		document.body.style.background='green';
+     	}
+     </script> -->
+
+     <!-- 3rd way event properties -->
+     <!-- <script type="text/javascript">
+     	let btn=document.getElementById('btn_id')
+     	btn.addEventListener('click',test)
+     	function test(){
+     		alert("testing")
+     		document.body.style.background='red';
+     	}
+     </script> -->
+
+     <!-- 4th way event properties -->
+     <script type="text/javascript">
+     	let btn=document.getElementById('btn_id')
+     	btn.onclick=function {
+     		alert("testing...")
+     	}
+     </script>
+</body>
+</html>

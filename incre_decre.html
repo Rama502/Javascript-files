@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>incre_decre</title>
+</head>
+<body>
+    <button onclick="increby1()">Incre</button>
+    <button onclick="decreby1()">Decre</button>
+    <p id="p_id"></p>
+    <script type="text/javascript">
+    	var i=0;
+    	function increby1(){
+    		if(i<=6){
+    			var res=i++;
+    			document.getElementById('p_id').innerText=res;
+    		}
+    	}
+    	function decreby1(){
+    		if(i>=6){
+    			var res=i--;
+    			document.getElementById('p_id').innerText=res;
+    		}
+    	}
+    </script>
+</body>
+</html>

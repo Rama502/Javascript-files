@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Var,Let,Const</title>
+</head>
+<body>
+    <h1>Var,Let,Constant</h1>
+    <script type="text/javascript">
+    	// var a=20;
+    	// var b=30;//redeclaration is possible
+    	// document.write(a);
+    	let b=30;
+    	//let b=40;//redeclaration is not possible
+    	b=40;//reintialization is possible
+        //document.write(b);
+        {
+        	let c=50;//block scope variable
+        }
+        //document.write(c);//it will not display because it is outside of block
+        //block scope variable
+        const pi=3.14;
+        //pi=4.20;
+        const pi=123456789;
+        //document.write(atmcardno);
+        document.write(pi);
+    </script>
+</body>
+</html>
